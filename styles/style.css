@@ -5,3 +5,54 @@ background-size: cover;
 background-attachment: fixed;
 background-position: center;
 }
+
+header {
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    display: flex;
+    align-items: center;
+    column-gap: 80px;
+    padding: 20px 20px;
+}
+
+header ul {
+    list-style-type: none;
+    color: white;
+
+}
+
+header ul a{
+        color: white;
+        text-decoration: none;
+}
+
+header ul a:hover{
+    color: rgb(0, 128, 160);
+    text-decoration: none;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+        
+}
+
+.navigation {
+    display: flex;
+    column-gap: 60px;
+}
+
+main {
+    display: flex;
+    }
+
+
+main h1{
+    color: white;
+    align-content:;
+}
+
+main img{
+    position: fixed;
+    right: 0;
+    height: 100%;
+}
