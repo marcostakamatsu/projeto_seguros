@@ -6,31 +6,32 @@ background-attachment: fixed;
 background-position: center;
 }
 
-header {
+nav {
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
     display: flex;
     align-items: center;
-    column-gap: 80px;
-    padding: 20px 20px;
+    column-gap: 100px;
+    padding: 20px 100px;
 }
 
-header ul {
+nav ul {
     list-style-type: none;
     color: white;
 
 }
 
-header ul a{
+nav ul a{
         color: white;
         text-decoration: none;
 }
 
-header ul a:hover{
+nav ul a:hover{
     color: rgb(0, 128, 160);
     text-decoration: none;
 }
 
-header img {
+nav img {
+    padding-right: 30%;
     width: 150px;
     height: auto;
         
@@ -38,7 +39,7 @@ header img {
 
 .navigation {
     display: flex;
-    column-gap: 60px;
+    column-gap: 80px;
 }
 
 main {
