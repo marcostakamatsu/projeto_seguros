@@ -102,3 +102,32 @@ main img {
         0 0 50px rgb(0, 140, 255),
         0 0 100px rgb(0, 140, 255);
 }
+
+
+/* perguntas */
+#questionnaire {
+    width: 4fr;
+    margin: 50px auto;
+    text-align: left;
+}
+
+.question {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 30px;
+    }
+
+input[type="text"], input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 30px;
+    }
