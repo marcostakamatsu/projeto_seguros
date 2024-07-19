@@ -1,0 +1,30 @@
+Briefing
+Loja Virtual de Seguros e Assistências
+
+1. Objetivo
+Criar uma jornada de usuário intuitiva e eficaz para uma loja virtual de venda de seguros e assistências, garantindo que os usuários possam navegar facilmente, encontrar o que precisam sem frustrações e conseguir fazer a contratação imediata e rápida.
+
+2. Pesquisa e Planejamento
+Análise de Público-Alvo
+Identificação dos Usuários: Determinar faixa etária, nível de familiaridade com tecnologia, e necessidades específicas.
+Comportamentos e Expectativas: Entender as preferências e expectativas dos usuários em relação à compra de seguros e assistências online.
+
+4. Design Visual
+a. Identidade Visual
+• Paleta de Cores: Transmitir confiança e segurança.
+• Tipografia: Clareza e legibilidade.
+• Uso de Ícones e Gráficos: Guiar os usuários de forma consistente
+
+ 
+Descrição das telas
+Tela principal:
+- Menu de navegação superior, com logo e links para as páginas.
+- Imagem de destaque com chamada para ação (CTA) com uma frase de impacto.
+- Produtos em destaque contendo os seguros e/ou assistências mais populares.
+- Rodapé: Informações de contato, links para redes sociais, termos de uso, política de privacidade etc.
+
+Tela do produto:
+- Imagem referente ao tipo e descrições breves de cada seguro com links para mais detalhes.
+- Preços: Detalhamento dos preços e planos disponíveis.
+- CTA: Botões como "Obter Cotação" e "Adicionar ao Carrinho".
+- Avaliações: Comentários e avaliações de clientes.
