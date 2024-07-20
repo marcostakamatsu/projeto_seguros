@@ -1,4 +1,4 @@
-.header {
+.cabecalho {
     position: fixed;
     top: 0;
     left: 0;
@@ -11,7 +11,7 @@
     padding: 1.3rem 10%;
 }
 
-.header::before {
+.cabecalho::before {
     content: '';
     position: absolute;
     top: 0;
@@ -23,7 +23,7 @@
     z-index: -1;
 }
 
-/* .header::after {
+/* .cabecalho::after {
     content: '';
     position: absolute;
     top: 0;
@@ -72,7 +72,7 @@
 
 /* Breakpoints */
 @media (max-width: 992px) {
-    .header {
+    .cabecalho {
         padding: 1.3rem 5%;
     }
 
