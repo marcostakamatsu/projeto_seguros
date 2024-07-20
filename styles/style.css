@@ -14,11 +14,11 @@ main {
     align-items: center;
     width: 100%;
     height: 100vh;
-    /* margin-top: 5%; */
+    padding-top: 5%;
     padding-left: 100px;
 }
 
-.pagina_inicial {
+.box_chamada {
 
 }
 
@@ -34,10 +34,14 @@ main {
     margin-bottom: 30px;
 }
 
-main img {
+#foto_lateral img {
+    position: absolute;
+    width: 1fr;
     right: 0;
-    height: 50vw;
+    bottom: 0;
+    height: 90vh;
     vertical-align: bottom;
+    z-index: -1;
 }
 
 
