@@ -9,7 +9,7 @@ $(document).ready(function() {
             $('#question' + currentQuestion).show();
         } else {
             $('#next').hide();
-            $('h1').hide();
+            $('.chamada').hide();
             $('input').hide();
             $('.question').hide();
             $('#produto_card').show();
