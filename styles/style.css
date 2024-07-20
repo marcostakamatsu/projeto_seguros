@@ -23,8 +23,10 @@ main {
 }
 
 .chamada {
+    width: 60%;
     color: white;
     font-size: 3.5vw;
+    font-weight: 700;
     margin-bottom: 30px;
 }
 
