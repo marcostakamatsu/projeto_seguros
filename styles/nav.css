@@ -76,6 +76,11 @@
         padding: 1.3rem 5%;
     }
 
+    /* retira a foto lateral */
+    .foto_lateral {
+        display: none;
+    }
+
     #check {
         display: none;
     }
