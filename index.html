@@ -25,18 +25,22 @@
 <body>
     <header class="header">
         <a href="index.html"><img src="images/ASTUTA_branco.png" alt="Marca" class="logo"></a>
-        <label for="" class="icons"><i class='bx bx-menu'></i></label>
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu_icon"></i>
+            <i class='bx bx-x' id="close_icon"></i>
+        </label>
         <nav class="navigation">
-            <a href="seguros.html">Seguros</a>
-            <a href="assistencias.html">Assistências</a>
-            <a href="cotacao.html">Cotações</a>
-            <a href="carrinho.html">Carrinho</a>
-            <a href="faq.html">FAQs</a>
-            <a href="faleconosco.html">Fale Conosco</a>
+            <a href="seguros.html" style="--i:0;">Seguros</a>
+            <a href="assistencias.html" style="--i:1;">Assistências</a>
+            <a href="cotacao.html" style="--i:2;">Cotações</a>
+            <!-- <a href="carrinho.html">Carrinho</a> -->
+            <a href="faq.html" style="--i:3;">FAQs</a>
+            <a href="faleconosco.html" style="--i:4;">Contato</a>
         </nav>
     </header>
 
-    <main>
+    <!-- <main>
         <div class="texto_hero">
             <h1>Proteja quem você ama,<br>de forma simples e rápida!</h1><br>
             <button class="shadow__btn">
@@ -46,7 +50,7 @@
         <div>
             <img src="images/mulher_3.png" alt="foto_mulher">
         </div>
-    </main>
+    </main> -->
 </body>
 
 </html>

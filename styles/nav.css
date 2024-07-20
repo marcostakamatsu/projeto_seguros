@@ -1,6 +1,4 @@
 .header {
-    backdrop-filter: blur(50px);
-    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
     position: fixed;
     top: 0;
     left: 0;
@@ -13,10 +11,36 @@
     padding: 1.3rem 10%;
 }
 
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(50px);
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    z-index: -1;
+}
+
+/* .header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+} */
+
 .logo {
     width: 8rem;
     height: auto;
 
+}
+
+#check {
+    opacity: 0;
 }
 
 .navigation a {
@@ -38,8 +62,83 @@
 }
 
 .icons {
-font-size: 2.8rem;
-color: white;
-cursor: pointer;
-display: none;
+    position: absolute;
+    right: 5%;
+    font-size: 2.8rem;
+    color: white;
+    cursor: pointer;
+    display: none;
 }
+
+/* Breakpoints */
+@media (max-width: 992px) {
+    .header {
+        padding: 1.3rem 5%;
+    }
+
+    #check {
+        display: none;
+    }
+
+    #check:checked~.icons #menu_icon {
+        display: none;
+    }
+
+    .icons {
+        display: inline-flex;
+    }
+
+    .icons #close_icon {
+        display: none;
+    }
+
+    #check:checked~.icons #close_icon {
+        display: block;
+    }
+
+    .navigation {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 0;
+        backdrop-filter: blur(50px);
+        background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+        box-shadow: 0.5rem 1rem rgb(0, 0, 0, .1);
+        overflow: hidden;
+        transition: .3s ease;
+    }
+
+    #check:checked~.navigation {
+        height: 17.7rem;
+    }
+
+    .navigation a {
+        display: block;
+        font-size: 1.1rem;
+        margin: 1.5rem 0;
+        text-align: center;
+        transform: translateY(-50px);
+        opacity: 0;
+        transition: .3s ease;
+    }
+
+    .navigation a:hover {
+        display: block;
+        font-size: 1.1rem;
+        margin: 1.5rem 0;
+        text-align: center;
+        color: rgb(0, 145, 202);
+    }
+
+    #check:checked~.navigation a {
+        transform: translateY(0);
+        opacity: 1;
+        transition-delay: calc(.15s * var(--i));
+    }
+}
+
+/* 
+@media (max-width: 992px) {
+
+} */
