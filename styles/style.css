@@ -1,8 +1,8 @@
 body {
     /* gradiente fundo */
-background: #141E30; 
-background: -webkit-linear-gradient(to left, #141e28, #0a0f19);
-background: linear-gradient(to left, #141e28, #0a0f19);
+    background: #141E30;
+    background: -webkit-linear-gradient(to left, #141e28, #0a0f19);
+    background: linear-gradient(to left, #141e28, #0a0f19);
 
     background-size: cover;
     background-attachment: fixed;
@@ -87,7 +87,7 @@ main {
 
 #box_perguntas {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -129,7 +129,7 @@ button {
 }
 
 
-/* teste */
+/* pagina sobre */
 
 .box_sobre {
     position: relative;
@@ -156,10 +156,30 @@ button {
     justify-content: center;
     align-items: flex-start;
     text-align: center;
-    padding-top: 5%; /* Ajusta o espaço do topo */
+    padding-top: 8%;
+    /* Ajusta o espaço do topo */
     opacity: 60%;
     filter: blur(8px);
     z-index: -1;
+    /* animação texto */
+    /* background: linear-gradient(45deg, #ffffff, #b6c7ff, #abccff, #ffffff);
+	background-size: 300%;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animate 5s ease-in-out infinite;
+	line-height: 0.9;
+}
+@keyframes animate{
+    0%{
+      background-position: 0 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0 50%;
+    } */
 }
 
 .image img {
@@ -183,4 +203,20 @@ button {
     padding: 30px;
     border-radius: 5px;
     font-size: 1.5em;
+}
+
+/* pagina_seguros */
+.chamada_seguros {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    }
+
+.chamada_seguros p {
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
 }
