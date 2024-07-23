@@ -205,4 +205,15 @@ button {
     font-size: 1.5em;
 }
 
-/* pagina_seguros */
+/* AVISO */
+.aviso {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 10px;
+    z-index: 1000;
+}
