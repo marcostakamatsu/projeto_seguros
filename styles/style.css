@@ -206,17 +206,3 @@ button {
 }
 
 /* pagina_seguros */
-.chamada_seguros {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    color: white;
-    font-size: 60px;
-    font-weight: 700;
-    }
-
-.chamada_seguros p {
-    color: white;
-    font-size: 25px;
-    font-weight: 300;
-}

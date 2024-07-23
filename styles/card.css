@@ -1,3 +1,31 @@
+.chamada_seguros {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  z-index: -1;
+  }
+
+
+  #foto_lateral_seguros img {
+    position: fixed;
+    padding-right: 5%;
+    right: 0;
+    bottom: 0;
+    height: 95vh;
+    width: auto;
+    z-index: -2;
+}
+
+.chamada_seguros p {
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+}
+
 .card_seguros {
   width: 100%;
   display: flex;
@@ -19,6 +47,7 @@
 
 .foto_produto img {
   border-radius: 5%;
+  width: 500px;
   /* width: 100%; */
 }
 
@@ -31,6 +60,7 @@
 }
 
 .produto_texto_1 {
+  min-width: 600px;
   padding: 100px;
   color: #141e28;
 }
@@ -41,6 +71,7 @@
 }
 
 .produto_texto_2 {
+  min-width: 600px;
   text-align: right;
   padding: 100px;
   color: #ffffff;
