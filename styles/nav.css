@@ -87,6 +87,10 @@
         display: none;
     }
 
+    .foto_produto {
+        display: none;
+    }
+
     #check:checked~.icons #close_icon {
         display: block;
     }
