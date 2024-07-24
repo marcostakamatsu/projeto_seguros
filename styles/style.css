@@ -164,7 +164,6 @@ button {
     align-items: flex-start;
     text-align: center;
     padding-top: 8%;
-    /* Ajusta o espaço do topo */
     opacity: 60%;
     filter: blur(10px);
     z-index: -1;
