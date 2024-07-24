@@ -12,17 +12,17 @@ body {
 
 main {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
     height: 100vh;
-    padding-left: 100px;
+    padding: 50px;
 }
 
 .chamada {
     width: 60%;
     color: white;
-    font-size: 3.5vw;
+    font-size: 40px;
     font-weight: 700;
     margin-bottom: 30px;
 }

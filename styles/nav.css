@@ -135,4 +135,5 @@
         opacity: 1;
         transition-delay: calc(.15s * var(--i));
     }
-}
+    
+    }
