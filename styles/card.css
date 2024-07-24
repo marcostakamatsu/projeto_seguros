@@ -1,23 +1,32 @@
 .chamada_seguros {
-  position: fixed;
-  display: flex;
-  flex-direction: column;
   width: 60%;
   color: white;
   font-size: 60px;
   font-weight: 700;
-  z-index: -1;
+}
+
+@media (max-width: 992px) {
+  .chamada_seguros {
+    font-size: 40px;
   }
 
+  .chamada_seguros p {
+    font-size: 15px;
+  }
 
   #foto_lateral_seguros img {
-    position: fixed;
-    padding-right: 5%;
-    right: 0;
-    bottom: 0;
-    height: 95vh;
-    width: auto;
-    z-index: -2;
+    display: none;
+  }
+}
+
+#foto_lateral_seguros img {
+  position: fixed;
+  padding-right: 5%;
+  right: 0;
+  bottom: 0;
+  height: 95vh;
+  width: auto;
+  z-index: -2;
 }
 
 .chamada_seguros p {
