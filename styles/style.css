@@ -122,11 +122,21 @@ input[type="number"] {
 }
 
 button {
+    background: rgb(0, 140, 255);
     padding: 10px 20px;
-    font-size: 30px;
-    color: white;
-    background-color: aquamarine;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
 }
+ button:hover {
+    background: rgb(2, 82, 148);
+ }
 
 
 /* pagina sobre */
