@@ -185,7 +185,7 @@ button {
 }
 
 .text p {
-    width: 100%%;
+    width: 100%;
     backdrop-filter: blur(10px);
     background-color: rgba(0, 0, 0, 0.5);
     color: white;

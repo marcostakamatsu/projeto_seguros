@@ -9,11 +9,6 @@ $(document).ready(function() {
             $('#question' + currentQuestion).show();
         } else {
             window.location.href = "/seguros.html#familia"
-            // $('#next').hide();
-            // $('.chamada').hide();
-            // $('input').hide();
-            // $('.question').hide();
-            // $('#produto_card').show();
         }
     });
 });
