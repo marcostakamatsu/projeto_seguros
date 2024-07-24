@@ -171,25 +171,7 @@ button {
     opacity: 60%;
     filter: blur(10px);
     z-index: -1;
-    /* animação texto */
-    /* background: linear-gradient(45deg, #ffffff, #b6c7ff, #abccff, #ffffff);
-	background-size: 300%;
-	-webkit-background-clip: text;
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
-	animation: animate 5s ease-in-out infinite;
-	line-height: 0.9;
-}
-@keyframes animate{
-    0%{
-      background-position: 0 50%;
-    }
-    50%{
-      background-position: 100% 50%;
-    }
-    100%{
-      background-position: 0 50%;
-    } */
+
 }
 
 .image img {
