@@ -206,7 +206,7 @@ button {
 }
 
 .text p {
-    width: 30%;
+    width: 100%%;
     backdrop-filter: blur(10px);
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
@@ -226,4 +226,14 @@ button {
     padding: 20px;
     font-size: 10px;
     z-index: 1000;
+}
+
+.texto_sobre {
+    background-color: white;
+    color:#141e28;
+    padding: 100px;
+}
+
+.texto_sobre p {
+margin-bottom: 30px;
 }
