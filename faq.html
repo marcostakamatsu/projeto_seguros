@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/card.css">
+    <link rel="stylesheet" href="styles/faq.css">
 
     <!-- icones -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -52,6 +53,65 @@
             <a href="faleconosco.html" style="--i:4;">Contato</a>
         </nav>
     </header>
+
+    <!-- FAQ -->
+    <div class="faq-container">
+        <h1>FAQ - Seguros de Vida</h1>
+        <div class="faq-item">
+            <button class="faq-question">O que é um seguro de vida?</button>
+            <div class="faq-answer">
+                <p>O seguro de vida é um contrato entre o segurado e a seguradora, onde a seguradora se compromete a pagar um valor previamente acordado aos beneficiários em caso de falecimento do segurado, ou em outras situações cobertas pela apólice.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Quais são os tipos de seguros de vida disponíveis?</button>
+            <div class="faq-answer">
+                <p>Os tipos de seguros de vida disponíveis incluem: Seguro de Vida Essencial, Seguro de Vida Completo, Seguro de Vida Familiar e Seguro de Vida para Idosos. Cada tipo oferece diferentes coberturas e benefícios.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Quem pode ser beneficiário de um seguro de vida?</button>
+            <div class="faq-answer">
+                <p>Os beneficiários de um seguro de vida podem ser quaisquer pessoas escolhidas pelo segurado, como cônjuges, filhos, pais ou outras pessoas próximas. O segurado pode nomear um ou mais beneficiários e determinar a proporção do benefício para cada um.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Qual é a importância de um seguro de vida?</button>
+            <div class="faq-answer">
+                <p>O seguro de vida é importante porque proporciona segurança financeira para os entes queridos do segurado em caso de falecimento. Ele ajuda a cobrir despesas imediatas, como funeral e dívidas, e garante a estabilidade financeira da família a longo prazo.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Como escolher o melhor seguro de vida para mim?</button>
+            <div class="faq-answer">
+                <p>Para escolher o melhor seguro de vida, é importante considerar suas necessidades e objetivos financeiros, a idade, estado de saúde, e a quantidade de cobertura desejada. Consultar um corretor de seguros pode ajudar a tomar uma decisão informada.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">O seguro de vida cobre apenas casos de falecimento?</button>
+            <div class="faq-answer">
+                <p>Não, além de cobrir casos de falecimento, muitos seguros de vida também oferecem cobertura para invalidez total ou parcial, doenças graves e assistência funeral. As coberturas específicas dependem do tipo de seguro contratado.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                const faqAnswer = button.nextElementSibling;
+
+                button.classList.toggle('active');
+
+                if (button.classList.contains('active')) {
+                    faqAnswer.style.maxHeight = faqAnswer.scrollHeight + 'px';
+                } else {
+                    faqAnswer.style.maxHeight = '0';
+                }
+            });
+        });
+    </script>
+
+    <!-- Disclaimer -->
     <div class="aviso">
         <p>Aviso: Todo o conteúdo deste site é meramente ilustrativo e não possui vínculo com qualquer organização. As
           informações aqui apresentadas são de caráter informativo e não devem ser consideradas como aconselhamento

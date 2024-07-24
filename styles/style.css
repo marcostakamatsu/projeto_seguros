@@ -159,7 +159,7 @@ button {
     padding-top: 8%;
     /* Ajusta o espaço do topo */
     opacity: 60%;
-    filter: blur(8px);
+    filter: blur(10px);
     z-index: -1;
     /* animação texto */
     /* background: linear-gradient(45deg, #ffffff, #b6c7ff, #abccff, #ffffff);
